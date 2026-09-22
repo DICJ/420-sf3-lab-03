@@ -1,5 +1,8 @@
 # diagrammes générés pour les utilisateurs
-static/images/plots/
+static/images/plots/*
+!static/images/plots/.gitkeep
+datasets/*
+!datasets/.gitkeep
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
