@@ -8,7 +8,13 @@ import matplotlib.pyplot as plt
 
 matplotlib.use("Agg") # Permet d'utiliser matplotlib sans interface graphique
 
-
+def exemple_de_fonction_testee(a, b):
+    """
+    Fonction de test pour vérifier le fonctionnement de l'application
+    Elle retourne la somme de deux nombres
+    """
+    return a + b
+    
 def diagramme_a_moustache(column, df):
     """
     Création d'un diagramme à boîte de moustache pour la colonne demandée

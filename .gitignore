@@ -2,7 +2,7 @@
 static/images/plots/*
 !static/images/plots/.gitkeep
 datasets/*
-!datasets/.gitkeep
+!datasets/atomes.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
